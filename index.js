@@ -27,7 +27,7 @@ bot.on('message', msg=> {
 // public static final String UserApikey1 = "6d7f9039-ba2b-4c56-90a6-b0bfafd75049";
 // public static final String WorkerApikey1 = "6d7f9039-ba2b-4c56-90a6-b0bfafd75049";
 // 147121534
-var job = new Cron( '0 * * * * *', function () {
+var job = new cron( '0 * * * * *', function () {
     bot.sendMessage(147121534, `test`)
 });
 
